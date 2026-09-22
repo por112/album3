@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
+  <link rel="manifest" href="manifest.json">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>อัลบั้มรูปของฉัน</title>
@@ -255,5 +256,10 @@ $('#trash').onclick=async()=>{A.status='trash';A.del=Date.now();await put(A);toa
 /* ---- start ---- */
 purge();me?show('home'):show('login');
 </script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => 
+    navigator.serviceWorker.register('sw.js').catch(()=>{})
+  );
+}
 </body>
 </html>
