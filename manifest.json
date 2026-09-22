@@ -1,17 +1,17 @@
 {
-  "name": "อัลบั้มรูปของฉัน",
-  "short_name": "อัลบั้มรูป",
+  "name": "My Album",
+  "short_name": "My Album",
   "description": "สร้างและตกแต่งอัลบั้มรูปของคุณเอง",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#fff7f0",
-  "theme_color": "#e0567a",
-  "lang": "th",
+  "background_color": "#FAE0D8",
+  "theme_color": "#FADCDC",
+  "lang": "en",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "icon192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
